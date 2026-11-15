@@ -2,11 +2,10 @@ import { useEffect, useState } from "react";
 import { BsCartPlus } from "react-icons/bs";
 
 import { api } from "../../services/api";
-import type strict from "assert/strict";
 
 interface ProductProps {
   id: number;
-  title: strict;
+  title: string
   description: string;
   price: number;
   cover: string;
